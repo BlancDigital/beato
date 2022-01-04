@@ -74,7 +74,7 @@ html {
   /* only shown between 1370px and 1450px */
   display: none;
   position: absolute;
-  bottom: 0;
+  bottom: 20%;
   right: -5%;
 }
 
