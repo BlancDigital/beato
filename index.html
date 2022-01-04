@@ -55,6 +55,7 @@
 
   <body>
     <section class="banner">
+      <img src="./img/marcelo.png" alt="" class="img-marcelo" />
       <div class="row">
         <div class="col-xxl-8 col-xl-6 col-md-12 col-12">
           <div class="infor">
@@ -64,7 +65,7 @@
             <div class="titulo">
               <h1>SEJA DONO DA SUA FRANQUIA DE CAFÉ</h1>
               <h2>
-                Faturando <span class="pulsate-bck"><b>até R$887.50 </b></span> por
+                Faturando <span class="pulsate-bck"><b>até R$887.500 </b></span> por
                 ano
               </h2>
               <div class="spacer"></div>
@@ -293,7 +294,7 @@
           </div>
 
           <div class="row">
-            <div class=" col-xl-6 col-md-12 col-12">
+            <div class="col-xl-6 col-md-12 col-12">
               <div class="imagem">
                 <div class="img1">
                   <img
@@ -376,7 +377,6 @@
         <div class="spacer"></div>
         <div class="col-xl-7 col-md-12 col-12">
           <div class="galeria-modelo">
-
             <div class="item">
               <div class="imagem">
                 <img src="img/beato-small.jpg" />
@@ -417,7 +417,6 @@
                   </div>
                   <div class="spacer"></div>
                   <h2>DIFERENCIAL: SEM TAXA DE RENOVAÇÃO</h2>
-                  </h2>
                 </div>
               </div>
             </div>
@@ -573,12 +572,17 @@
       </div>
     </section>
 
-    <a href="https://api.whatsapp.com/send?phone=5517991312922&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Franquia%20Beato%20Coffee" class=" whatsapp-container" target="_blank" title="Fale com um consultor">
-        <img src="./icons/whatsapp.svg" alt="" width="48" height="48">
-        <!-- <span class="tooltip-text">
+    <a
+      href="https://api.whatsapp.com/send?phone=5517991312922&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Franquia%20Beato%20Coffee"
+      class="whatsapp-container"
+      target="_blank"
+      title="Fale com um consultor"
+    >
+      <img src="./icons/whatsapp.svg" alt="" width="48" height="48" />
+      <!-- <span class="tooltip-text">
           Falar com um consultor
         </span> -->
-        <span>Fale com um consultor</span>
+      <span>Fale com um consultor</span>
     </a>
 
     <div class="barra-fixa">
@@ -598,33 +602,43 @@
         <div class="row">
           <div class="col-xl-7">
             <div class="row">
-              <div class="col-xl-6 d-flex flex-column justify-content-center">  
-                <p>© 2021 - BEATO COFFEE |        Feito por
-                  <a href="https://www.blancmarketingdigital.com.br" target="_blank"
-                  >Blanc Digital</a
-                  ></p>
-                <p class="mt-3">
-                R. Américo Gomes Novoa, 730 - Jardim Redentor, São José do Rio Preto - SP, 15085-330 - UNIDADE PILOTO
-                </p>
-              </div>
-
               <div class="col-xl-6 d-flex justify-content-center align-items-center">
-                <a href="https://www.facebook.com/beatocafeteriaoficial/" target="_blank">
+                <a
+                  href="https://www.facebook.com/beatocafeteriaoficial/"
+                  target="_blank"
+                >
                   <div class="fab fa-facebook"></div>
                 </a>
-                  <a href="https://www.instagram.com/beatocafeteriaoficial/" target="_blank">
-                    <div class="ml-3 fab fa-instagram"></div>
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCjDoyCJAjp9wEkBC7M9y4gw/videos?view=0&sort=p" target="_blank">
-                    <div class="ml-3 fab fa-youtube"></div>
-                  </a>
+                <a
+                  href="https://www.instagram.com/beatocafeteriaoficial/"
+                  target="_blank"
+                >
+                  <div class="ml-3 fab fa-instagram"></div>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCjDoyCJAjp9wEkBC7M9y4gw/videos?view=0&sort=p"
+                  target="_blank"
+                >
+                  <div class="ml-3 fab fa-youtube"></div>
+                </a>
+              </div>
+
+              <div class="col-xl-6 d-flex flex-column justify-content-center">
+                <p>
+                  © 2021 - BEATO COFFEE | Feito por
+                  <a href="https://www.blancmarketingdigital.com.br" target="_blank"
+                    >Blanc Digital</a
+                  >
+                </p>
+                <p class="mt-3">
+                  R. Américo Gomes Novoa, 730 - Jardim Redentor, São José do Rio
+                  Preto - SP, 15085-330 - UNIDADE PILOTO
+                </p>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
-
     </footer>
 
     <!-- LIBS VUE AND JS -->
@@ -653,10 +667,10 @@
 
               if (scroll >= 500) {
                 sticky.addClass("fixed")
-                sticky.addClass('w-33')
+                sticky.addClass("w-33")
               } else {
                 sticky.removeClass("fixed")
-                sticky.removeClass('w-33')
+                sticky.removeClass("w-33")
               }
             })
           } else if (tela >= 768 && tela <= 1024) {
