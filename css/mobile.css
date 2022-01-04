@@ -1,0 +1,828 @@
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+
+  .whatsapp-container {
+    bottom: 2%;
+  }
+  .banner {
+    padding: 80px;
+    min-height: initial;
+    background-position-y: bottom;
+  }
+  .banner .infor .logo img {
+    width: 150px;
+  }
+  .banner .infor .titulo {
+    padding: 60px 0px 0px;
+  }
+  .banner .infor .titulo .spacer {
+    height: 30px;
+  }
+  .banner .infor .titulo h2 {
+    font-size: 22px;
+  }
+  .banner .infor .titulo h1 {
+    font-size: 60px;
+  }
+  .banner .infor .titulo h3 {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  .banner .infor .titulo h3 span.ano {
+    font-size: 18px;
+    width: 335px;
+  }
+  .banner .infor .titulo h4 a {
+    font-size: 18px;
+  }
+  .banner .infor .titulo h4 a img {
+    width: 150px;
+  }
+  .banner .formulario {
+    padding: 50px 40px;
+    top: 530px;
+    right: 25px;
+  }
+  .banner .formulario .titulo .spacer {
+    height: 10px;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 24px;
+  }
+  .banner .formulario .titulo h2 {
+    font-size: 16px;
+  }
+  .banner .formulario .titulo span img {
+    width: 30px;
+    height: 30px;
+  }
+  .banner .formulario form .campos {
+    padding-bottom: 30px;
+  }
+  .banner .formulario form .campos label {
+    font-size: 14px;
+  }
+  .banner .formulario form .campos input {
+    height: 30px;
+  }
+  .banner .formulario form .campos .mt-5 {
+    margin-top: 2rem !important;
+  }
+  .banner .formulario form .bt-section button {
+    height: 50px;
+    font-size: 14px;
+  }
+  .banner-2 {
+    padding: 80px 100px 100px 80px;
+  }
+  .banner-2 .titulo h1 {
+    font-size: 72px;
+  }
+  .banner-2 .titulo h2 {
+    font-size: 18px;
+  }
+  .banner-2 .item .spacer {
+    height: 80px;
+  }
+  .banner-2 .item .itens .imagem {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+  }
+  .banner-2 .item .itens .imagem img {
+    width: 50px;
+  }
+  .banner-2 .item .itens .descricao h1 {
+    font-size: 28px;
+  }
+  .banner-2 .item .itens .descricao p {
+    font-size: 16px;
+  }
+  .banner-3 {
+    padding: 100px;
+  }
+  .banner-3 .texto h1 {
+    font-size: 72px;
+  }
+  .banner-3 .texto h2 {
+    font-size: 20px;
+  }
+  .banner-3 .imagem {
+    padding: 50px 20px 0px;
+  }
+  .banner-3 .imagem .img1 img {
+    height: 400px;
+    width: 280px;
+  }
+  .banner-3 .imagem .img2 img {
+    height: 400px;
+    width: 280px;
+  }
+  .banner-3 .divisor {
+    bottom: -5px;
+  }
+  .sucesso {
+    padding: 100px;
+  }
+  .modelo {
+    padding: 100px;
+  }
+  .modelo .titulo h1 {
+    font-size: 72px;
+  }
+  .modelo .titulo h2 {
+    font-size: 22px;
+  }
+  .modelo .galeria-modelo .item .texto h1 {
+    font-size: 48px;
+  }
+  .modelo .galeria-modelo .item .texto h2 {
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .modelo .galeria-modelo .item .texto h2 a {
+    font-size: 20px;
+  }
+  .modelo .galeria-modelo .item .texto p {
+    font-size: 14px;
+  }
+  .modelo .galeria-modelo ul.slick-dots {
+    margin-top: 0px;
+  }
+  .modelo .galeria-modelo ul.slick-dots li button {
+    width: 25px;
+    height: 25px;
+  }
+  .modelo .galeria-modelo .slick-next {
+    right: -80px;
+  }
+  .modelo .galeria-modelo .slick-prev {
+    left: -80px;
+  }
+  .video .youtube {
+    min-height: 490px;
+  }
+  .banner-5 {
+    padding: 100px;
+  }
+  .banner-5 .titulo h1 {
+    font-size: 72px;
+  }
+  .banner-5 .titulo h2 {
+    font-size: 24px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep {
+    min-height: 240px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep img {
+    top: -50px;
+  }
+  .banner-5 .galeria-video ul.slick-dots {
+    margin-top: 0px;
+  }
+  .banner-5 .galeria-video ul.slick-dots li button {
+    width: 25px;
+    height: 25px;
+  }
+  .banner-5 .galeria-video .slick-next {
+    right: -80px;
+  }
+  .banner-5 .galeria-video .slick-prev {
+    left: -80px;
+  }
+  .variedade {
+    padding: 100px;
+  }
+  .variedade .titulo h1 {
+    font-size: 72px;
+  }
+  .variedade .titulo h2 {
+    font-size: 28px;
+  }
+  .section-obrigado h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 80rem) {
+  .footer p:nth-child(1) {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .barra-fixa {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    padding: 80px;
+  }
+  .banner .infor .logo img {
+    width: 200px;
+  }
+  .banner .infor .titulo {
+    padding: 80px 0px 0px;
+  }
+  .banner .infor .titulo h1 {
+    font-size: 72px;
+  }
+  .banner .infor .titulo h2 {
+    font-size: 28px;
+  }
+  .banner .infor .titulo h3 {
+    font-size: 28px;
+  }
+  .banner .infor .titulo h3 span.ano {
+    width: 410px;
+    font-size: 28px;
+  }
+
+  .banner-2 {
+    padding: 100px 80px;
+  }
+  .banner-2 .titulo h1 {
+    font-size: 72px;
+  }
+  .banner-2 .item .spacer {
+    height: 0px;
+  }
+  .banner-2 .item .spacer-mobile {
+    height: 80px;
+  }
+  .banner-2 .item .itens {
+    padding: 80px 0px 0px;
+  }
+  .banner-3 {
+    padding: 80px;
+  }
+  .banner-3 .texto h1 {
+    font-size: 72px;
+  }
+  .banner-3 .texto p {
+    text-align: justify;
+  }
+  .banner-3 .imagem {
+    padding: 30px 30px 0px;
+  }
+  .banner-3 .imagem .img2 img {
+    margin: 50px 0px 0px;
+  }
+  .banner-3 .divisor {
+    bottom: -10px;
+  }
+  .sucesso {
+    padding: 80px;
+  }
+  .sucesso .titulo h1 {
+    font-size: 48px;
+  }
+  .sucesso .titulo h2 {
+    text-align: justify;
+  }
+  .sucesso .titulo h2 br {
+    display: none;
+  }
+  .banner-4 {
+    background-position-x: center;
+  }
+  .banner-4 .divisor {
+    bottom: -10px;
+  }
+  .modelo {
+    padding: 100px 80px;
+  }
+  .video h2 {
+    padding: 0 80px;
+  }
+  .modelo .galeria-modelo .item .texto p {
+    font-size: 16px;
+  }
+  .modelo .galeria-modelo .item .texto h2 {
+    width: 480px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .modelo .galeria-modelo .slick-prev {
+    padding: 15px;
+    left: -60px;
+  }
+  .modelo .galeria-modelo .slick-next {
+    padding: 15px;
+    right: -60px;
+  }
+  .video .youtube {
+    min-height: 280px;
+  }
+  .video .youtube .play-button {
+    width: 100px;
+    height: 100px;
+    padding: 20px 35px;
+  }
+  .video .youtube .play-button svg {
+    width: 45px;
+    height: 65px;
+  }
+  .banner-5 {
+    padding: 80px;
+  }
+  .banner-5 .titulo.titulo {
+    margin-top: 4rem;
+  }
+  .banner-5 .cafe img {
+    width: 200px;
+    top: -100px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep {
+    min-height: 270px;
+  }
+  .variedade {
+    padding: 80px;
+  }
+  .variedade .titulo h1 {
+    font-size: 72px;
+  }
+  .variedade .titulo h2 {
+    font-size: 28px;
+  }
+  .variedade .galeria-produto {
+    padding: 100px 0px 0px;
+  }
+  .section-obrigado {
+    background-position-x: 60%;
+    padding: 50px;
+    -ms-flex-line-pack: start !important;
+    align-content: start !important;
+  }
+  .section-obrigado h1 {
+    font-size: 24px;
+  }
+  .section-obrigado h2 {
+    font-size: 14px;
+  }
+  .section-obrigado .logo {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .banner .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .banner-2 > .row > div > .item {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .banner-2 > .row > div > .item > .row {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .banner-2 > .row > div > .item > .row > div {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1360px) {
+  .banner-2 > .row > div > .item {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1360px) {
+  .banner .formulario {
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Swapped positions with the above media query to avoid specifity war */
+@media screen and (min-width: 1300px) and (max-width: 1365px) {
+  .banner .formulario {
+    position: absolute;
+    top: 430px;
+    right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .banner .formulario {
+    position: absolute;
+    top: 430px;
+    right: 5vw;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  /* re-declared to gain in specifity war, DO NOT REMOVE */
+  .banner .fixed {
+    position: fixed;
+  }
+}
+
+@media screen and (min-width: 75rem) and (max-width: 80rem) {
+
+  .banner .row {
+    align-items: center;
+  }
+
+  .banner > .row > div:nth-child(2) {
+    width: 80%;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .banner-2 > .row > div > .item {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner-5 {
+    padding: 100px;
+  }
+
+  .banner-5 .titulo {
+    margin-top: 10rem;
+  }
+  
+  .banner-5 .galeria-video .item {
+    padding: 1rem;
+  }
+
+  .banner-5 .galeria-video .item + .item {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding: 50px 30px;
+  }
+  .banner .logo {
+    text-align: center;
+  }
+  .banner .infor .logo img {
+    width: 150px;
+  }
+  .banner .infor .titulo {
+    padding: 50px 0px 0px;
+    text-align: center;
+  }
+  .banner .infor .titulo .spacer {
+    height: 0px;
+  }
+  .banner .infor .titulo h1 {
+    font-size: 36px;
+  }
+  .banner .infor .titulo h2 {
+    font-size: 24px;
+  }
+  .banner .infor .titulo h3 {
+    font-size: 16px;
+  }
+  .banner .infor .titulo h3 span.ano {
+    padding: 0px 0px 20px;
+    width: 200px;
+  }
+  .banner .infor .titulo h4 a {
+    display: none;
+    font-size: 16px;
+  }
+  .banner .infor .titulo h4 a img {
+    padding: 0px 20px;
+    width: 120px;
+  }
+  .banner .formulario {
+    position: relative;
+    /* reset default top */
+    top: 0;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 50px 30px;
+    border-radius: 20px;
+  }
+  .banner .formulario .titulo .spacer {
+    height: 0px;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 18px;
+  }
+  .banner .formulario .titulo h2 {
+    font-size: 12px;
+  }
+  .banner .formulario .titulo span img {
+    width: 40px;
+    height: 30px;
+  }
+  .banner .formulario form .campos {
+    padding-bottom: 30px;
+  }
+  .banner .formulario form .campos label {
+    font-size: 14px;
+  }
+  .banner .formulario form .campos input {
+    height: 25px;
+  }
+  .banner .formulario form .campos .mt-5 {
+    margin-top: 1rem !important;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 10px;
+    height: 40px;
+  }
+  .banner-2 {
+    padding: 50px;
+    min-height: auto;
+  }
+  .banner-2 > .row > div > .item {
+    flex-direction: column;
+  }
+
+  .banner-2 .titulo h1 {
+    font-size: 36px;
+  }
+  .banner-2 .titulo h2 {
+    font-size: 14px;
+  }
+  .banner-2 .titulo h2 br {
+    display: none;
+  }
+  .banner-2 .item .spacer {
+    height: 0px;
+  }
+  .banner-2 .item .itens {
+    padding: 30px 0px 0px;
+  }
+  .banner-2 .item .itens .imagem {
+    background-color: #eeeeee;
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+  }
+  .banner-2 .item .itens .imagem img {
+    width: 35px;
+  }
+  .banner-2 .item .itens .descricao {
+    padding-left: 15px;
+  }
+  .banner-2 .item .itens .descricao h1 {
+    font-size: 24px;
+  }
+  .banner-2 .item .itens .descricao p {
+    font-size: 14px;
+  }
+  .banner-3 {
+    padding: 50px;
+  }
+  .banner-3 .texto h1 {
+    font-size: 42px;
+  }
+  .banner-3 .texto h2 {
+    font-size: 14px;
+  }
+  .banner-3 .texto p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .banner-3 .imagem {
+    padding: 30px 0px 0px;
+  }
+  .banner-3 .imagem .img1 img {
+    height: 400px;
+    width: 280px;
+  }
+  .banner-3 .imagem .img2 {
+    margin: 0 auto;
+  }
+  .banner-3 .imagem .img2 img {
+    height: 400px;
+    width: 280px;
+  }
+  .section-perfil-investidor {
+    padding: 50px;
+  }
+  .section-perfil-investidor h2 {
+    line-height: 0.8;
+    margin-bottom: 2rem;
+  }
+  .sucesso {
+    padding: 50px;
+  }
+  .sucesso .titulo h1 {
+    line-height: 0.975;
+    margin-bottom: 2rem;
+    /* font-size: 32px; */
+  }
+  .sucesso .titulo p {
+    /* font-size: 14px; */
+    text-align: justify;
+  }
+  .sucesso .titulo h2 br {
+    display: none;
+  }
+  .banner-4 {
+    padding: 50px;
+    min-height: 50vh;
+    background-attachment: initial;
+    background-position-x: center;
+  }
+  .banner-4 .divisor {
+    bottom: -10px;
+  }
+  .modelo {
+    padding: 50px;
+    min-height: auto;
+  }
+  .modelo .spacer {
+    height: 10px;
+  }
+  .modelo .titulo h1 {
+    font-size: 48px;
+  }
+  .modelo .titulo h2 {
+    font-size: 20px;
+  }
+  .modelo .galeria-modelo .item .texto {
+    padding: 30px 0px 10px;
+  }
+  .modelo .galeria-modelo .item .texto h1 {
+    font-size: 36px;
+  }
+  .modelo .galeria-modelo .item .texto h2 {
+    font-size: 14px;
+    width: 250px;
+  }
+  .modelo .galeria-modelo .item .texto h2 a {
+    font-size: 14px;
+  }
+  .modelo .galeria-modelo .item .texto p {
+    font-size: 14px;
+  }
+  .modelo .galeria-modelo ul.slick-dots {
+    margin-top: 0px;
+  }
+  .modelo .galeria-modelo ul.slick-dots li button {
+    width: 15px;
+    height: 15px;
+  }
+  .modelo .galeria-modelo .slick-prev {
+    left: -45px;
+    padding: 10px;
+    top: 10%;
+  }
+  .modelo .galeria-modelo .slick-next {
+    right: -45px;
+    padding: 10px;
+    top: 10%;
+  }
+  .video h2 {
+    font-size: 64px;
+    padding: 0 50px;
+    line-height: 0.9;
+  }
+  .video .youtube {
+    min-height: 200px;
+  }
+  .video .youtube .play-button {
+    width: 60px;
+    height: 60px;
+    padding: 12px 22px;
+  }
+  .video .youtube .play-button svg {
+    width: 20px;
+    height: 25px;
+  }
+  .video .youtube img {
+    width: 150%;
+  }
+  .banner-5 {
+    padding: 5%;
+  }
+
+  .banner-5 .cafe img {
+    width: 100px;
+    top: -50px;
+  }
+
+  .banner-5 .galeria-video {
+    margin-top: 50px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep {
+    min-height: 300px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep img {
+    top: -20px;
+    width: 100%;
+  }
+  .banner-5 .galeria-video .item .youtube-dep .play-button {
+    width: 60px;
+    height: 60px;
+    padding: 12px 22px;
+  }
+  .banner-5 .galeria-video .item .youtube-dep .play-button svg {
+    width: 20px;
+    height: 25px;
+  }
+  .banner-5 .galeria-video .slick-prev {
+    left: -20px;
+    padding: 10px;
+  }
+  .banner-5 .galeria-video .slick-next {
+    right: -20px;
+    padding: 10px;
+  }
+  .variedade {
+    padding: 50px;
+  }
+  .variedade .titulo h1 {
+    font-size: 36px;
+  }
+  .variedade .titulo h2 {
+    font-size: 18px;
+  }
+  .variedade .galeria-produto {
+    padding: 50px 0px 0px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+  .section-obrigado {
+    background-position-x: 0px;
+    padding: 30px;
+    -ms-flex-line-pack: start !important;
+    align-content: start !important;
+  }
+  .section-obrigado h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .section-obrigado h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+  .section-obrigado h2 br {
+    display: none;
+  }
+  .section-obrigado .logo {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-5 .titulo {
+    margin-top: 2rem;
+  }
+  .banner-5 .titulo h1{
+    margin-top: 1rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .banner-2 > .row > div > .item {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* avoid card's button overflowing onto other card */
+  .modelo .galeria-modelo .item .texto h2 {
+    width: 80%;
+    height: auto;
+    padding: 5px 27.5px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .whatsapp-container {
+    bottom: 2%;
+  }
+
+}
+
+
+@media screen and (min-width: 100rem) {
+
+}
+/*# sourceMappingURL=mobile.css.map */
+
+.w-80 {
+  width: 80%;
+}
+
+.w-33 {
+  width: 36.6666%;
+}
