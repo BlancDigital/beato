@@ -1,6 +1,10 @@
+@media screen and (min-width: 1370px) and (max-width: 1450px) {
+  .banner .img-marcelo {
+    display: block;
+  }
+}
 
 @media (min-width: 1280px) and (max-width: 1366px) {
-
   .whatsapp-container {
     bottom: 2%;
   }
@@ -431,7 +435,6 @@
 }
 
 @media screen and (min-width: 75rem) and (max-width: 80rem) {
-
   .banner .row {
     align-items: center;
   }
@@ -439,8 +442,6 @@
   .banner > .row > div:nth-child(2) {
     width: 80%;
   }
-
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -456,7 +457,7 @@
   .banner-5 .titulo {
     margin-top: 10rem;
   }
-  
+
   .banner-5 .galeria-video .item {
     padding: 1rem;
   }
@@ -785,7 +786,7 @@
   .banner-5 .titulo {
     margin-top: 2rem;
   }
-  .banner-5 .titulo h1{
+  .banner-5 .titulo h1 {
     margin-top: 1rem;
     line-height: 1;
   }
@@ -810,12 +811,9 @@
   .whatsapp-container {
     bottom: 2%;
   }
-
 }
 
-
 @media screen and (min-width: 100rem) {
-
 }
 /*# sourceMappingURL=mobile.css.map */
 
