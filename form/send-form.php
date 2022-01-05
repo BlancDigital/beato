@@ -70,23 +70,23 @@ date_default_timezone_set('America/Sao_Paulo');
 
         $mail->SMTPAuth    = $smtpauth;  
 
-        $mail->Port       = $port; 
+        $mail->Port        = $port; 
 
         $mail->Username    = $username;
 
         $mail->Password    = $password; 
 
-        $mail->SMTPDebug  = $debug; 
+        $mail->SMTPDebug   = $debug; 
 
-        $mail->SetFrom('envio@beato.coffee', 'Leads Beato Coffee');
+        $mail->SetFrom('no-reply@blancmarketingdigital.com.br', '[Leads] Beato Coffee');
 
-        $mail->AddReplyTo('leads@beato.coffee', 'Leads Beato Coffee');
+        $mail->AddReplyTo('leads@beato.coffee', '[Leads] Beato Coffee');
 
-        $mail->AddAddress('leads@beato.coffee', 'Leads Beato Coffee');
+        $mail->AddAddress('leads@beato.coffee', '[Leads] Beato Coffee');
 
         //$mail->AddAddress('joao.220396@gmail.com', 'Leads Beato Coffee');
 
-        $mail->Subject = 'Novo Lead Beato Coffee';
+        $mail->Subject = '[Leads] Beato Coffe';
 
         $mail->MsgHTML($mensagem);
 
@@ -94,7 +94,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
         //die(var_dump($mail));
         
-        /*if(!$mail->Send())
+        if(!$mail->Send())
         {
             echo "Message was not sent";
             echo "Mailer Error: " . $mailer->ErrorInfo; exit; 
@@ -103,59 +103,59 @@ date_default_timezone_set('America/Sao_Paulo');
 
             header("location: ../obrigado.php");
         
-        }*/
+        }
 
         // CONEXAO DB
-        require_once('connection.php');
+        // require_once('connection.php');
 
-        $id_cliente = 10061;
-        $nome_cliente = "Beato Coffee";
-        $email_lead = $_POST['email'];
-        $telefone_lead = $_POST['telefone'];
+        // $id_cliente = 10061;
+        // $nome_cliente = "Beato Coffee";
+        // $email_lead = $_POST['email'];
+        // $telefone_lead = $_POST['telefone'];
 
-        $utm_medium = $_POST['utmmedium'];
-        $utm_campaign = $_POST['utmcampaign'];
-        $utm_content = $_POST['utmcontent'];
+        // $utm_medium = $_POST['utmmedium'];
+        // $utm_campaign = $_POST['utmcampaign'];
+        // $utm_content = $_POST['utmcontent'];
 
-        try {
+        // try {
 
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $stmt = $pdo->prepare('INSERT INTO tb_Leads (cl_idClientes, cl_Nome, cl_Email, cl_Telefone, cl_Cidade, cl_UF, cl_HorarioContato, cl_DataCadastro, cl_CapitalInvestimento, cl_InicioNegocio, cl_UTM_Medio, cl_UTM_Campaign, cl_UTM_Content, cl_UTM_Source) VALUES(:cl_idClientes, :cl_Nome, :cl_Email, :cl_Telefone, :cl_Cidade, :cl_UF, :cl_HorarioContato, :cl_DataCadastro, :cl_CapitalInvestimento, :cl_InicioNegocio, :cl_UTM_Medio, :cl_UTM_Campaign, :cl_UTM_Content, :cl_UTM_Source)');
-            $stmt->execute(array(
-                ':cl_idClientes' => $id_cliente,
-                ':cl_Nome' => $nome_cliente,
-                ':cl_Email' => $email_lead,
-                ':cl_Telefone' => $telefone_lead,
-                ':cl_Cidade' => '',
-                ':cl_UF' => '',
-                ':cl_HorarioContato' => '',
-                ':cl_DataCadastro' => '',
-                ':cl_CapitalInvestimento' => '',
-                ':cl_InicioNegocio' => '',
-                ':cl_UTM_Medio' => $utm_medium,
-                ':cl_UTM_Campaign' => $utm_campaign,
-                ':cl_UTM_Content' => $utm_content,
-                ':cl_UTM_Source' => ''
-            ));
+        //     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        //     $stmt = $pdo->prepare('INSERT INTO tb_Leads (cl_idClientes, cl_Nome, cl_Email, cl_Telefone, cl_Cidade, cl_UF, cl_HorarioContato, cl_DataCadastro, cl_CapitalInvestimento, cl_InicioNegocio, cl_UTM_Medio, cl_UTM_Campaign, cl_UTM_Content, cl_UTM_Source) VALUES(:cl_idClientes, :cl_Nome, :cl_Email, :cl_Telefone, :cl_Cidade, :cl_UF, :cl_HorarioContato, :cl_DataCadastro, :cl_CapitalInvestimento, :cl_InicioNegocio, :cl_UTM_Medio, :cl_UTM_Campaign, :cl_UTM_Content, :cl_UTM_Source)');
+        //     $stmt->execute(array(
+        //         ':cl_idClientes' => $id_cliente,
+        //         ':cl_Nome' => $nome_cliente,
+        //         ':cl_Email' => $email_lead,
+        //         ':cl_Telefone' => $telefone_lead,
+        //         ':cl_Cidade' => '',
+        //         ':cl_UF' => '',
+        //         ':cl_HorarioContato' => '',
+        //         ':cl_DataCadastro' => '',
+        //         ':cl_CapitalInvestimento' => '',
+        //         ':cl_InicioNegocio' => '',
+        //         ':cl_UTM_Medio' => $utm_medium,
+        //         ':cl_UTM_Campaign' => $utm_campaign,
+        //         ':cl_UTM_Content' => $utm_content,
+        //         ':cl_UTM_Source' => ''
+        //     ));
 
-            $contagem = $stmt->rowCount();
+        //     $contagem = $stmt->rowCount();
 
-            if ($contagem >= 1) {
+        //     if ($contagem >= 1) {
             	
-            	header('Location: ../obrigado.php');
+        //     	header('Location: ../obrigado.php');
 
-            }else{
+        //     }else{
 
-            	echo "Algo deu errado!";
+        //     	echo "Algo deu errado!";
 
-            }
+        //     }
 
-        } catch(PDOException $e) {
+        // } catch(PDOException $e) {
         	
-        	echo 'Error: ' . $e->getMessage();
-        	return false;
+        // 	echo 'Error: ' . $e->getMessage();
+        // 	return false;
         
-        }
+        // }
     }
 
 ?>
