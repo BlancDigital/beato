@@ -98,10 +98,10 @@
               <img src="img/logo-branca.png" alt="Beato Cafeteria" />
             </div>
             <div class="titulo">
-              <h1>SEJA DONO DA SUA FRANQUIA DE CAFÉ</h1>
+              <h1>SEJA DONO DA SUA PRÓPRIA CAFETERIA</h1>
               <h2>
                 Faturando <span class="pulsate-bck"><b>até R$887.530 </b></span> por
-                ano
+                ano com a sua <b>franquia de café</b>
               </h2>
               <div class="spacer"></div>
               <h3>
