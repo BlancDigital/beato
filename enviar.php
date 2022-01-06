@@ -38,6 +38,26 @@ $envio_leads     = mail($emailatt_leads,"[Lead] Beato Coffee", $corpoHTML_leads,
 
 if($envio_cliente && $envio_leads) {
   echo "<script>location.href='obrigado.php'</script>"; // Página que será redirecionada
+} else if ($envio_cliente){
+  echo "<p>Envio Cliente OK</p>";
+
+  if (!$envio_leads) {
+    echo "<p> Envio Leads FALHOU </p>";
+  } else {
+    echo "<p> Envio Leads OK </p>";
+  }
+
+} else if ($envio_leads) {
+  echo "<p>Envio Leads OK</p>";
+
+  if (!$envio_cliente) {
+    echo "<p> Envio Cliente FALHOU </p>";
+  } else {
+    echo "<p> Envio Cliente OK </p>";
+  }
+
+} else {
+  echo "<p> Client e Leads FALHARAM </p>";
 }
 
 ?>
